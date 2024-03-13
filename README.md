@@ -78,3 +78,8 @@ sudo ./calculate_client localhost
 
 This project demonstrates the basic setup and development process for an RPC application, emphasizing the ease with which distributed applications can communicate and perform operations across different systems.
 
+
+### Project Photos
+
+![Application Screenshot 1](client-server.png)
+![Application Screenshot 2](calculation_photo.png)
