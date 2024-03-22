@@ -59,6 +59,12 @@ Compile the application using the generated Makefile:
 sudo apt install make
 make -f Makefile.calculate
 ```
+If you get an error you need to add these two lines to the top of your Makefile
+
+```bash
+CFLAGS += -g -I/usr/include/tirpc
+LDLIBS += -ltirpc
+```
 
 ### Running the Application
 
